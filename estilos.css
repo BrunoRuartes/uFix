@@ -1,0 +1,1124 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+
+/*-------       Globales        ------*/
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 2.7rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 u {
+    text-decoration: none;
+}
+
+h2 b {
+    font-size: 5rem;
+    color: #d6d6d6;
+    text-decoration-line: underline;
+    text-decoration-color: #d6d6d6;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+}
+
+a h2 {
+    font-size: 2.7rem;
+    font-family: 'Roboto', sans-serif;
+    color: #1d70ac;
+}
+
+
+/* ---------     Utilidades     ---------- **/
+
+.centrar-texto {
+    text-align: center;
+}
+
+.centrar-item {
+    align-items: center;
+}
+
+.iconofacebook {
+    align-items: center center;
+    display: flex;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.lista-sindec {
+    list-style: none;
+}
+
+
+/*-------------     BACKGROUND     -----------  */
+
+.fondo-blanco {
+    /**background-color: #e1e1e1;**/
+    background-color: whitesmoke;
+    padding-bottom: 5rem;
+}
+
+
+/*------------- EFECTOS ---------------*/
+
+
+/* Underline From Center - REPARACION */
+
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+
+/* Underline From Center - ASESORIA */
+
+.hvr-underline-from-center-A {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1rem;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center-A:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #4aa10e;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center-A:hover:before,
+.hvr-underline-from-center-A:focus:before,
+.hvr-underline-from-center-A:active:before {
+    left: 0;
+    right: 0;
+}
+
+
+/* Underline From Center - DIS */
+
+.hvr-underline-from-center-D {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1rem;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center-D:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #9C1783;
+    ;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center-D:hover:before,
+.hvr-underline-from-center-D:focus:before,
+.hvr-underline-from-center-D:active:before {
+    left: 0;
+    right: 0;
+}
+
+
+/*-------------       HEADER        ------------*/
+
+.LOGO {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+logoREP {
+    color: white;
+    text-decoration: none;
+}
+
+logoBR {
+    color: blue;
+    text-decoration: none;
+}
+
+.Logo-uFix-Header {
+    width: 30%;
+}
+
+.Logo-uFix-Barra {
+    /* min-height: 30%;*/
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    color: #273580;
+}
+
+.Logo-uFix-Barra:hover {
+    color: #223bd8;
+    transition: ease-in-out .3s;
+}
+
+.Logo-uFix-Cuerpo {
+    min-height: 30%;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    color: #445eee;
+}
+
+.prop {
+    color: #1D91AC;
+}
+
+.asesoria-t {
+    color: #4EA016;
+}
+
+.asesoria-t:hover {
+    color: #017001;
+    transition: ease-in-out .3s;
+}
+
+.dist-t {
+    color: #9C1783;
+}
+
+.dist-t:hover {
+    color: #6b0a59;
+    transition: ease-in-out .3s;
+}
+
+.menu-icon {
+    display: none;
+    width: 5rem;
+}
+
+.site-header {
+    display: flex;
+    padding: 0;
+    background-image: url(img/reppc.jpg);
+    background: #283c86;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, rgba(69, 162, 71, 0.308), rgba(40, 60, 134, 0.514)), url(/img/reppc.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(69, 162, 71, 0.288), rgba(40, 60, 134, 0.425)), url(/img/reppc.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+    padding-bottom: 70rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header a {
+    color: white;
+}
+
+.texto-header {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .texto-header {
+        margin-top: 20rem;
+    }
+}
+
+.texto-header p {
+    margin-top: 2rem;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.barra {
+    /*  POSITION LEFT TOP WIDTH PARA ANCLAR BARRA MENU  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    width: 100%;
+    list-style: none;
+    opacity: 80%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+.navegacion ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.navegacion ul li {
+    display: inline-block;
+}
+
+.navegacion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.navegacion ul li a:hover {
+    color: blue;
+    background-color: #ffffff;
+    opacity: 88%;
+    transition: .3s;
+}
+
+.Logo-uFix {
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+
+/* ----- BODY ----------*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    margin: 0%;
+}
+
+.propuestas-titulos {
+    color: #1d70ac;
+}
+
+.textoscuadrados {
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px none #000000;
+    background-color: #d1f0d1;
+    padding: 1rem;
+    /*-webkit-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);*/
+}
+
+.textoscuadrados1 {
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px none #000000;
+    background-color: #d1e2f1;
+    margin: 0.5rem;
+    /*-webkit-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);*/
+}
+
+.textoscuadrados2 {
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px none #000000;
+    background-color: #f1d1e9;
+    margin: 0.5rem;
+    /*-webkit-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);*/
+}
+
+
+/*------ FOOTER ----------*/
+
+.site-footer {
+    background-color: #111111;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+h6 {
+    font-size: 2.5rem;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h7 {
+    font-size: 2rem;
+    font-family: 'Exo 2', sans-serif;
+}
+
+ggg {
+    color: goldenrod;
+}
+
+.foot-iconos {
+    display: inline-flexbox;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center
+}
+
+
+/*------- ULTIMA BARRA --------*/
+
+.barra-final {
+    background-color: #273580;
+    font-family: 'Noto Sans', sans-serif;
+    opacity: 80%;
+}
+
+
+/*------- BOTONES --------*/
+
+.boton-contacto-titulo {
+    letter-spacing: 1rem;
+    box-shadow: inset 0px 0px 15px 3px #23395e;
+    background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color: #2e466e;
+    border-radius: 11px;
+    border: 1px solid #1f2f47;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    padding: 8px 43px;
+    margin-top: 8rem;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+    opacity: 63%;
+}
+
+.boton-contacto-titulo:hover {
+    background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+    background-color: #415989;
+    opacity: 95%;
+    transition: opacity .3s;
+}
+
+.boton-contacto-titulo:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/** Globales **/
+
+h1 {
+    font-size: 4.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+    padding-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 3.6rem;
+    padding-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 span {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: unset;
+}
+
+h4 {
+    font-size: 2.8rem;
+    font-style: 'Noto Sans', sans-serif;
+}
+
+p {
+    font-size: 2rem;
+    font-style: 'Noto Sans', sans-serif;
+}
+
+a h2:hover {
+    color: rgb(1, 57, 129);
+    opacity: 90%;
+    transition: .3s ease-in-out;
+}
+
+span1 {
+    font-style: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #445eee;
+}
+
+nuevo {
+    color: #D5AA0C;
+}
+
+.nuevo {
+    color: #D5AA0C;
+    margin-bottom: 2rem;
+}
+
+
+/*-------------          GRID          ------------*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "Software Hardware";
+}
+
+.link {
+    color: black;
+}
+
+.gricont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.PC {
+    grid-area: 1 / 2 / 1 / 2;
+}
+
+.Televisores-y-Monitores {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Electrónica-General {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.Software {
+    grid-area: Software;
+}
+
+.soft {
+    text-align: left;
+}
+
+.Hardware {
+    grid-area: Hardware;
+}
+
+.hard {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+
+/*    ----- NUEVA GRID ------------
+.gricont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "PC iconoPC" "Televisores-y-Monitores iconoTelevisor" "Electrónica-General iconoElectronica";
+}
+
+.PC {
+    grid-area: PC;
+}
+
+.iconoPC {
+    grid-area: iconoPC;
+}
+
+.iconoTelevisor {
+    grid-area: iconoTelevisor;
+}
+
+.Televisores-y-Monitores {
+    grid-area: Televisores-y-Monitores;
+}
+
+.Electrónica-General {
+    grid-area: Electrónica-General;
+}
+
+.iconoElectronica {
+    grid-area: iconoElectronica;
+}*/
+
+.grilladetexto {
+    background: rgba(71, 135, 169, 1);
+    background: -moz-linear-gradient(top, rgba(71, 135, 169, 1) 0%, rgba(95, 149, 99, 0.93) 34%, rgba(95, 149, 99, 0.86) 71%, rgba(71, 135, 169, 0.8) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(71, 135, 169, 1)), color-stop(34%, rgba(95, 149, 99, 0.93)), color-stop(71%, rgba(95, 149, 99, 0.86)), color-stop(100%, rgba(71, 135, 169, 0.8)));
+    background: -webkit-linear-gradient(top, rgba(71, 135, 169, 1) 0%, rgba(95, 149, 99, 0.93) 34%, rgba(95, 149, 99, 0.86) 71%, rgba(71, 135, 169, 0.8) 100%);
+    background: -o-linear-gradient(top, rgba(71, 135, 169, 1) 0%, rgba(95, 149, 99, 0.93) 34%, rgba(95, 149, 99, 0.86) 71%, rgba(71, 135, 169, 0.8) 100%);
+    background: -ms-linear-gradient(top, rgba(71, 135, 169, 1) 0%, rgba(95, 149, 99, 0.93) 34%, rgba(95, 149, 99, 0.86) 71%, rgba(71, 135, 169, 0.8) 100%);
+    background: linear-gradient(to bottom, rgba(71, 135, 169, 1) 0%, rgba(95, 149, 99, 0.93) 34%, rgba(95, 149, 99, 0.86) 71%, rgba(71, 135, 169, 0.8) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4787a9', endColorstr='#4787a9', GradientType=0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 3px 0px;
+    grid-template-areas: "texto1 texto2 texto3";
+    align-items: center;
+    text-align: center;
+}
+
+.texto1 {
+    grid-area: texto1;
+    color: whitesmoke;
+    /*-webkit-text-stroke: 1.5px black;*/
+    text-shadow: 2px 3px 5px black;
+}
+
+.texto2 {
+    grid-area: texto2;
+    color: whitesmoke;
+    /*-webkit-text-stroke: 1.5px black;*/
+    text-shadow: 2px 3px 5px black;
+}
+
+.texto3 {
+    grid-area: texto3;
+    color: whitesmoke;
+    /*-webkit-text-stroke: 1.5px black;*/
+    text-shadow: 2px 3px 5px black;
+}
+
+.grillaasesor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 3px 0px;
+}
+
+.asesor {
+    grid-area: 1 / 1 / 1 / 1;
+    text-align: center;
+    align-items: center;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.asesor-pmay {
+    grid-area: 1 / 2 / 1 / 2;
+    text-align: center;
+    align-items: center;
+    p {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}
+
+.grillacontacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "contacto-whatsapp contacto-instagram contacto-facebook";
+}
+
+.contacto-whatsapp {
+    grid-area: contacto-whatsapp;
+}
+
+.contacto-instagram {
+    grid-area: contacto-instagram;
+}
+
+.contacto-facebook {
+    grid-area: contacto-facebook;
+}
+
+
+/*----  ICONOS E IMAGENES  ------*/
+
+.iconos {
+    /*display: flex;*/
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 5rem;
+}
+
+.iconos-titulos {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: space-between;
+    border-radius: 50%;
+    margin-top: 12rem;
+}
+
+
+/* ----- PC ---------------- */
+
+.site-header-pc {
+    display: flex;
+    padding: 0;
+    background-image: url(img/pcfondo.jpg);
+    background: rgba(195, 20, 49, 0.534);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(36, 11, 54, 0.274), rgba(195, 20, 49, 0.205)), url(/img/pcfondo.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(36, 11, 54, 0.219), rgba(195, 20, 49, 0.199)), url(/img/pcfondo.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+    padding-bottom: 70rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-azul {
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px none #000000;
+    background-color: #c0ccee;
+    padding: 1rem;
+    /*-webkit-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);*/
+}
+
+.lista-blanca {
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px none #000000;
+    background-color: #d1f0d1;
+    padding: 2rem;
+    /*-webkit-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);*/
+}
+
+.lista-morada {
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px none #000000;
+    background-color: #ebbef8;
+    padding: 2rem;
+    /*-webkit-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);*/
+}
+
+.lista-rosa {
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px none #000000;
+    background-color: #f0b0bb;
+    padding: 2rem;
+    /*-webkit-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 6px 0px rgba(0, 0, 0, 0.75);*/
+}
+
+
+/* ----- TELEVISORES ---------------- */
+
+.site-header-televisor {
+    display: flex;
+    padding: 0;
+    background-image: url(img/pcfondo.jpg);
+    background: rgb(189, 195, 199);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, rgba(44, 62, 80, 0.623), rgba(189, 195, 199, 0.411)), url(/img/televisorfondo.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgba(44, 62, 80, 0.644), rgba(189, 195, 199, 0.24)), url(/img/televisorfondo.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+    padding-bottom: 70rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ----- ELEC GENERAL ---------------- */
+
+.site-header-elecgen {
+    display: flex;
+    padding: 0;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, rgba(44, 83, 100, 0.534), rgba(32, 58, 67, 0.795), rgba(15, 32, 39, 0.795)), url(/img/elecgenfondo.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgba(44, 83, 100, 0.767), rgba(32, 58, 67, 0.753), rgba(15, 32, 39, 0.767)), url(/img/elecgenfondo.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+    padding-bottom: 70rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-elecgen {
+    font-size: 2rem;
+}
+
+.imagenes-elecgen {
+    max-width: 90%;
+}
+
+.separador {
+    max-height: 6rem;
+}
+
+
+/* --------- ASESORIAS ----------- */
+
+.site-header-asesorias {
+    display: flex;
+    padding: 0;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, rgba(44, 100, 44, 0.534), rgba(32, 67, 37, 0.795), rgba(17, 39, 15, 0.795)), url(/img/contactofondo.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgba(44, 100, 53, 0.767), rgba(49, 67, 32, 0.753), rgba(16, 39, 15, 0.767)), url(/img/contactofondo.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+    padding-bottom: 70rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-blanca2 {
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px none #000000;
+    background-color: #05c00585;
+    padding: 2rem;
+    -webkit-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+}
+
+.lista-blanca2:hover {
+    transition: ease-in-out .2s;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px none #000000;
+    background-color: #04970485;
+    padding: 2rem;
+    -webkit-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+}
+
+.lista-blanca3 {
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px none #000000;
+    background-color: #5bbb5b56;
+    padding: 2rem;
+    -webkit-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+}
+
+.lista-blanca3:hover {
+    transition: ease-in-out .2s;
+    border-radius: 44px 44px 44px 44px;
+    -moz-border-radius: 44px 44px 44px 44px;
+    -webkit-border-radius: 44px 44px 44px 44px;
+    border: 0px none #000000;
+    background-color: #41834156;
+    padding: 2rem;
+    -webkit-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.75);
+}
+
+
+/* --------- REP A DIST ----------- */
+
+.site-header-repdis {
+    display: flex;
+    padding: 0;
+    background: #c94b4b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(75, 19, 79, 0.466), rgba(201, 75, 75, 0.247)), url(/img/distanciafondo.jpg);
+    ;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(75, 19, 79, 0.384), rgba(201, 75, 75, 0.384)), url(/img/distanciafondo.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+    padding-bottom: 70rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* --------- SOBRE MI ----------- */
+
+.site-header-sobremi {
+    display: flex;
+    padding: 0;
+    background: #c94b4b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(75, 19, 79, 0.747), rgba(201, 75, 75, 0.705)), url(/img/sobremifondo.jpg);
+    ;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(75, 19, 79, 0.699), rgba(201, 75, 75, 0.781)), url(/img/sobremifondo.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+    padding-bottom: 70rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* --------- CONTACTO ----------- */
+
+.site-header-contacto {
+    display: flex;
+    padding: 0;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, rgba(44, 100, 44, 0.534), rgba(32, 67, 37, 0.795), rgba(17, 39, 15, 0.795)), url(/img/asesoriafondo.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgba(44, 100, 53, 0.767), rgba(49, 67, 32, 0.753), rgba(16, 39, 15, 0.767)), url(/img/asesoriafondo.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+    padding-bottom: 70rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagenes-contacto {
+    max-height: 5rem;
+}
+
+.texto-contacto {
+    color: black;
+}
+
+
+/*    MEDIA QUERY      */
+
+@media only screen and (max-width: 768px) {
+    .body {
+        width: 100%;
+    }
+    .site-header {
+        width: 100%;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+        text-shadow: 2px 3px 5px #bfbfbf;
+        text-decoration: underline #ffffff;
+    }
+    .navegacion ul {
+        display: none;
+    }
+    .navegacion ul.show {
+        display: block;
+        flex-wrap: wrap;
+    }
+    /*.navegacion {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }*/
+    .contenedor {
+        flex-wrap: wrap;
+    }
+    .barra {
+        align-items: center;
+        text-align: center;
+    }
+    .navegacion ul li {
+        display: block;
+    }
+    .navegacion ul li a {
+        display: block;
+        padding: 0.5rem 0;
+    }
+    .navegacion ul li a:hover {
+        color: blue;
+        transition: .3s;
+    }
+    .texto-header {
+        margin-top: 13rem;
+        margin-bottom: 5rem;
+    }
+    logoREP {
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+    logoBR {
+        color: transparent;
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+    }
+    .fondo-blanco {
+        width: 100%;
+        height: 100%;
+    }
+    .seccion {
+        width: 100%;
+        height: 100%;
+    }
+    .iconos-titulos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*----------GRIDS----------*/
+    .gricont {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .grillaasesor {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*--  LOGO  --*/
+    .logach {
+        margin: 0;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+}
